@@ -3,6 +3,8 @@ title: Primitive type, Reference type
 weight: 1
 ---
 
+# 자바 Primitive type, Reference type 
+
 ### Primitive
 
 - Java 는 기본형 타입(Primitive type)을 미리 정의하여 제공한다.
