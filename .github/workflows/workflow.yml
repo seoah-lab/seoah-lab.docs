@@ -18,6 +18,6 @@ jobs:
         uses: chabad360/hugo-gh-pages@master
         with:
           githubToken: ${{ secrets.HUGO_TOKEN }}
-          branch: master
+          branch: main
           repo: sogmy/sogmy.github.io
           args: --gc --minify --cleanDestinationDir
