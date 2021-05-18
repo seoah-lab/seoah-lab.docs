@@ -3,7 +3,8 @@ title: Primitive type, Reference type
 weight: 1
 ---
 
-# 자바 변수의 타입
+# Javatype
+
 
 ### 기본형 (Primitive)
 
