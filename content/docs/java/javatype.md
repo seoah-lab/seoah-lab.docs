@@ -3,7 +3,7 @@ title: Primitive type, Reference type
 weight: 1
 ---
 
-# Java Primitive type, Reference type 
+# Primitive type, Reference type 
 
 
 ### 1. 기본형 (Primitive)
