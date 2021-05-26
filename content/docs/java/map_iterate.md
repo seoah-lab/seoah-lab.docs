@@ -11,10 +11,8 @@ HashMap 의 key 와 value를 확인할때 활용할 수 있는 방법은 다음�
 import java.util.Map;
 import java.util.HashMap;
 
-class IterationDemo
-{
-	public static void main(String[] arg)
-	{
+class Iteration {
+	public static void main(String[] arg) {
 		Map<String,Integer> map = new HashMap<>();
 	
 		// enter name/url pair
@@ -24,27 +22,28 @@ class IterationDemo
 		map.put("young", 4);
 		map.put("ki", 5);
 
-		for (Map.Entry<String,Interger> entry : map.entrySet())
-			System.out.println("Key = " + entry.getKey() +
-							", Value = " + entry.getValue());
-
-        for (String name : map.keySet())
-        System.out.println("key: " + name);
-        
-        for (String url : map.values())
-        System.out.println("value: " + url);
-
         Iterator<Map.Entry<String, Interger>> itr = map.entrySet().iterator();
          
-        while(itr.hasNext())
-        {
+        while(itr.hasNext()) {
              Map.Entry<String, Interger> entry = itr.next();
-             System.out.println("Key = " + entry.getKey() +
-                                 ", Value = " + entry.getValue());
+             System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
         }
 
-        map.forEach((k,v) -> System.out.println("Key = "
-                + k + ", Value = " + v));
+		for (Map.Entry<String,Interger> entry : map.entrySet()) {
+            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+        }
+			
+
+        for (String name : map.keySet()) {
+            System.out.println("key: " + name);
+        }
+        
+        
+        for (String url : map.values()) {
+            System.out.println("value: " + url);
+        }
+
+        map.forEach((k,v) -> System.out.println("Key = " + k + ", Value = " + v));
     }
 }
 
