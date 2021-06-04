@@ -1,4 +1,5 @@
 --- 
+title: String Method 
 weight: 1
 ---
 
@@ -22,4 +23,4 @@ String.toLowCase()
 
 String.toUpperCase()
 
-String.substring()
+String.substring() 
