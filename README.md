@@ -1,7 +1,10 @@
-# Sogmy Docs Pages
+# DevLog 페이지
 
-https://sogmy.github.io Repository 입니다.
+https://sogmy.github.io 의 리소스를 보관하는 레파지토리 입니다.
 
-Hugo + Git Pages
 
-Github Action 으로 auto deploy 로 구성해 봤습니다.
+Stack  
+- Hugo
+- Git Action 
+
+
