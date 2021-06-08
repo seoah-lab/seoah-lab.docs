@@ -24,5 +24,5 @@ implementation 'org.springframework.boot:spring-boot-starter-validation'
 - The annotated element must be null
 
 
-출처
-[Java EE ](https://javaee.github.io/javaee-spec/javadocs/javax/validation/class-use/Constraint.html) 
+출처  
+- [Java EE ](https://javaee.github.io/javaee-spec/javadocs/javax/validation/class-use/Constraint.html) 
