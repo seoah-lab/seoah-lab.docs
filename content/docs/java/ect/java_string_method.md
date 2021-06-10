@@ -32,7 +32,10 @@ String.toLowCase()
 
 String.toUpperCase()
 
-String.substring() 
+
+String.substring​(int beginIndex)  
+String.substring​(int beginIndex, int endIndex)
+- 문자열의 인덱스의 문자를 반환 합니다.
 
 String.compareTo​(String anotherString) 
 - 두 문자열을 사전 순으로 비교합니다

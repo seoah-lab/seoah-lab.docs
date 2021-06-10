@@ -1,6 +1,6 @@
 ---
 title: Part2. 함수형 데이터 처리
-weight: 1
+weight: 2
 ---
 
 # Part2. 함수형 데이터 처리
