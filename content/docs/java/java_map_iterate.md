@@ -1,9 +1,9 @@
 ---
-title: Map to Iterate
+title: Java Map to Iterate
 weight: 1
 ---
 
-# Map to Iterate
+# Java Map to Iterate
 
 HashMap 의 key 와 value를 확인할때 활용할 수 있는 방법은 다음과 같다.
 
