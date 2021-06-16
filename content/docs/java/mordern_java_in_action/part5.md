@@ -1,6 +1,6 @@
 ---
 title: Part5. 개선된 자바 동시성
-weight: 1
+weight: 5
 ---
 
 # 개선된 자바 동시성
