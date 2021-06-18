@@ -188,15 +188,15 @@ public static <T> List<T> filter(List<T> list, Predicate<T> p ) {
 - 전달 : 람다 표현식을 메서드 인수로 전달하거나 변수로 저장할 수 있다.
 - 간결성 : 익명 클래스처럼 많은 코드를 구현할 필요가 없다.
 
-    ```java
-    Comparator<Apple> byWeight = new Comparator<Apple>() {
-        public int compare(Apple a1, Apple a2) {
-            return a1.getWeight().compareTo(a2.getWeight());
-        }
+```java
+Comparator<Apple> byWeight = new Comparator<Apple>() {
+    public int compare(Apple a1, Apple a2) {
+        return a1.getWeight().compareTo(a2.getWeight());
     }
+}
 
-    Compartor<Apple> byWeight = (Apple a1, Apple a2) ->  a1.getWeight().compareTo(a2.getWeight());
-    ```
+Compartor<Apple> byWeight = (Apple a1, Apple a2) ->  a1.getWeight().compareTo(a2.getWeight());
+```
 
 함수형 인터페이스라는 문맥에서 람다 표현식을 사용할수 있다.
 
