@@ -5,7 +5,6 @@ weight: 1
 
 # Primitive type, Reference type 
 
-
 ### 1. 기본형 (Primitive)
 
 - Primitive type은 논리형, 문자형, 정수형, 실수형으로 구분된다.
