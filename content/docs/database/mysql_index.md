@@ -2,8 +2,9 @@
 # MySQL 인덱스
 
 인덱스(영어: index)는 데이터베이스 분야에 있어서 테이블에 대한 동작의 속도를 높여주는 자료 구조를 일컫는다. 
-
 Multi Coulumn Index 는 인덱스 컬럼을 연결(concat)하여 정렬한 배열입니다.
+
+
 
 ```sql
 CREATE TABLE test (
@@ -34,7 +35,7 @@ SELECT * FROM test
 ```
 위와 같이 접두사로 활용된 last_name 이 포함되여야 멀티 컬럼 인덱스가 사용되여 조회됩니다.
 
-```
+```sql
 SELECT * FROM test WHERE first_name='John';
 
 SELECT * FROM test
@@ -51,6 +52,8 @@ SELECT * FROM tbl_name
 
 col1 와 col2가 각각 컬럼 인덱스로 선언되어 있다면 옵티마이 저는 인덱스 병합 최적화를 사용하려고합니다.
 
+---
 
+참고 
 https://dev.mysql.com/doc/refman/8.0/en/column-indexes.html
 https://dev.mysql.com/doc/refman/8.0/en/multiple-column-indexes.html
