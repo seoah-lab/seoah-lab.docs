@@ -1,9 +1,9 @@
 --- 
-title: String Method 
+title: Java String Method 
 weight: 1
 ---
 
-# String 의 주요 메소드 정리
+# Java String Method 
 
 String.charAt(int index)  
 - 지정된 인덱스의 char 값을 반환합니다. 
