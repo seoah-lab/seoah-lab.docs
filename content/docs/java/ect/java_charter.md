@@ -23,7 +23,7 @@ String s = String.ValueOf(c);
 
 ### String to char
 
-```
+```java
 String s = "hello";  
 char c = s.charAt(0); //returns h  
 ```
