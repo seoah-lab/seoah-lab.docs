@@ -8,7 +8,6 @@ Bean 컨테이너(ApplicationContext)의 핵심 기능은 애플리케이션에 
 
 ApplicationContext는 Bean 생성 및 관리에 대한 책임을 BeanFactory에게 모두 위임한다. 즉, Spring Framework에서 Bean Lifecycle 관리에 대한 모든 책임은 BeanFactory가 가진다.
 
-
 Bean의 라이프 사이클은 다음과 같은 단계로 진행된다.
 생성(Create)
 초기화(Init)
