@@ -1,6 +1,7 @@
 --- 
-weight: 1
+titile: Convert Integer List to Int Array in Java
 ---
+
 # Convert Integer List to Int Array in Java
 
 List 의 toArray() 메서드는 Object 타입을 지원한다.
