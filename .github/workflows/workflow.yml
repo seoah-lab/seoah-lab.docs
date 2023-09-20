@@ -7,13 +7,16 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-lates
 
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
         with:
           submodules: true
+      - name: git
+        run:
+          git remote add origin https://github.com/seoah-lab/seoah-lab.github.io
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
         with:
