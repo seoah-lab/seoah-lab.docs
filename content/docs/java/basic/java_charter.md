@@ -1,4 +1,7 @@
-
+---
+title: Java Character Converter
+weight: 
+---
 # Java Character Converter
 
 ### char to int 
