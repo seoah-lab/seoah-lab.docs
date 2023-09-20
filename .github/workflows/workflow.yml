@@ -19,5 +19,5 @@ jobs:
         with:
           githubToken: ${{ secrets.HUGO_TOKEN }}
           branch: main
-          repo: seoah-lab/seoah-lab.github.io
+          repo: https://github.com/seoah-lab/seoah-lab.github.io
           args: --gc --minify --cleanDestinationDir
