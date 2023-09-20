@@ -14,9 +14,6 @@ jobs:
         uses: actions/checkout@master
         with:
           submodules: true
-      - name: git
-        run: |
-          git config -l
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
         with:
