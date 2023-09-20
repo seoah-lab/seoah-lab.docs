@@ -15,7 +15,7 @@ jobs:
         with:
           submodules: true
       - name: git
-        run:
+        run: |
           git remote add origin https://github.com/seoah-lab/seoah-lab.github.io
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
